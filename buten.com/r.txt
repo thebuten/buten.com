@@ -1,0 +1,5 @@
+function randomSite() {
+    var sites = ["https://example.com/1", "https://example.com/2", "https://example.com/3"];
+    var randomNumber = Math.floor(Math.random() * sites.length);
+    window.location = sites[randomNumber];
+}
